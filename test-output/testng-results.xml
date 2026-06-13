@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-12T11:44:54 IST" name="Firefox Suite" finished-at="2026-06-12T11:46:13 IST" duration-ms="78907">
+    <groups>
+    </groups>
+    <test started-at="2026-06-12T11:44:54 IST" name="Flight Booking Firefox" finished-at="2026-06-12T11:46:13 IST" duration-ms="78907">
+      <class name="tests.FlightBookingTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:44:56 IST" name="setup" finished-at="2026-06-12T11:45:10 IST" duration-ms="14579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:45:10 IST" name="bookFlight" data-provider="flightData" finished-at="2026-06-12T11:45:26 IST" duration-ms="15416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael Johnson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[742 Evergreen Avenue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10001.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567890123450]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2028.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Michael Johnson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:45:26 IST" name="tearDown" finished-at="2026-06-12T11:45:26 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:45:26 IST" name="setup" finished-at="2026-06-12T11:45:33 IST" duration-ms="6654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:45:33 IST" name="bookFlight" data-provider="flightData" finished-at="2026-06-12T11:45:49 IST" duration-ms="15649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[221 Baker Street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[England]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NW16XE]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876543210987650]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2029.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:45:49 IST" name="tearDown" finished-at="2026-06-12T11:45:49 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:45:49 IST" name="setup" finished-at="2026-06-12T11:45:56 IST" duration-ms="6181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookFlight(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:45:56 IST" name="bookFlight" data-provider="flightData" finished-at="2026-06-12T11:46:12 IST" duration-ms="16927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robert Brown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sunset Avenue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90001.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5555555555555550]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2030.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Robert Brown]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlightBookingTest@1f2586d6]" started-at="2026-06-12T11:46:12 IST" name="tearDown" finished-at="2026-06-12T11:46:13 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlightBookingTest -->
+    </test> <!-- Flight Booking Firefox -->
+  </suite> <!-- Firefox Suite -->
+</testng-results>
