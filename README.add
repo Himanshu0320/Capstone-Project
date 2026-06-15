@@ -1,0 +1,194 @@
+BlazeDemo Flight Booking Automation Framework
+
+📌 Project Overview
+
+The BlazeDemo Flight Booking Automation Framework is an end-to-end web automation project
+developed using Java, Selenium WebDriver, TestNG, and Maven. It automates the complete flight
+booking workflow on the BlazeDemo website by following the Page Object Model (POM) design
+pattern and supports Data-Driven Testing, Cross-Browser Testing, Extent Reports, Screenshot 
+Capture, and Jenkins Integration.
+________________________________________
+
+🚀 Features
+
+•	End-to-End Flight Booking Automation 
+•	Page Object Model (POM) Design Pattern 
+•	Data-Driven Testing using Excel 
+•	Cross-Browser Testing (Chrome & Firefox) 
+•	TestNG Framework Integration 
+•	Extent Report Generation 
+•	Automatic Screenshot Capture 
+•	Configurable Properties File 
+•	Jenkins CI Integration 
+•	Maven Project Structure 
+•	Reusable and Maintainable Code 
+•	Git & GitHub Version Control 
+________________________________________
+
+🛠️ Tech Stack
+
+•	Java 
+•	Selenium WebDriver 
+•	TestNG 
+•	Maven 
+•	Apache POI 
+•	WebDriverManager 
+•	Extent Reports 
+•	Commons IO 
+•	Jenkins 
+•	Git & GitHub 
+________________________________________
+
+📂 Project Structure
+
+BlazeDemoFlightBooking
+│
+├── src/test/java
+│   ├── Base
+│   │     └── BaseClass.java
+│   │
+│   ├── Pages
+│   │     ├── HomePage.java
+│   │     ├── FlightSelectionPage.java
+│   │     ├── PurchasePage.java
+│   │     └── ConfirmationPage.java
+│   │
+│   ├── tests
+│   │     ├── LaunchTest.java
+│   │     ├── SearchFlightTest.java
+│   │     ├── FlightBookingTest.java
+│   │     └── CrossBrowserTest.java
+│   │
+│   ├── utilities
+│   │     ├── ConfigReader.java
+│   │     ├── ExcelUtil.java
+│   │     ├── ScreenshotUtil.java
+│   │     └── ExtentManager.java
+│   │
+│   ├── listeners
+│   │     └── TestListener.java
+│   │
+│   └── dataproviders
+│         └── BookingDataProvider.java
+│
+├── src/test/resources
+│     ├── config.properties
+│     └── PassengerData.xlsx
+│
+├── Reports
+├── Screenshots
+├── pom.xml
+├── testng.xml
+└── Jenkinsfile
+________________________________________
+
+📋 Automated Test Scenarios
+
+•	Verify Application Launch 
+•	Verify Flight Search 
+•	Verify Flight Selection 
+•	Verify Complete Flight Booking 
+•	Verify Booking Confirmation 
+•	Verify Data-Driven Test Execution 
+•	Verify Cross-Browser Execution 
+•	Verify Screenshot Capture 
+•	Verify Extent Report Generation 
+________________________________________
+
+📊 Data-Driven Testing
+
+The framework reads test data from:
+src/test/resources/PassengerData.xlsx
+Test data includes:
+•	Departure City 
+•	Destination City 
+•	Passenger Name 
+•	Address 
+•	City 
+•	State 
+•	Zip Code 
+•	Card Type 
+•	Card Number 
+•	Expiry Month 
+•	Expiry Year 
+•	Name on Card 
+•	Flight Index 
+________________________________________
+
+⚙️ Configuration
+
+The config.properties file contains:
+browser=chrome
+url=https://blazedemo.com/
+excelPath=src/test/resources/PassengerData.xlsx
+implicitWait=10
+
+________________________________________
+
+📈 Reporting
+
+The framework generates:
+•	Extent HTML Reports 
+•	TestNG Reports 
+•	Execution Logs 
+•	Screenshots for Passed & Failed Tests 
+Reports Location:
+Reports/
+Screenshots Location:
+Screenshots/
+________________________________________
+
+
+🌐 Cross Browser Support
+
+Supported Browsers:
+•	Google Chrome 
+•	Mozilla Firefox 
+Execution is managed using TestNG Parameters.
+________________________________________
+
+
+🔄 Jenkins Pipeline Stages
+
+•	Checkout Code 
+•	Clean Project 
+•	Compile Project 
+•	Execute TestNG Tests 
+•	Generate Reports 
+•	Archive Reports 
+•	Build Status Notification 
+________________________________________
+
+
+📦 Maven Dependencies
+
+•	Selenium WebDriver 
+•	TestNG 
+•	Apache POI 
+•	Apache POI-OOXML 
+•	WebDriverManager 
+•	Commons IO 
+•	Extent Reports 
+________________________________________
+
+
+🎯 Project Achievements
+
+•	Developed Selenium Automation Framework 
+•	Implemented Page Object Model (POM) 
+•	Implemented Data-Driven Testing 
+•	Implemented Cross-Browser Testing 
+•	Generated Extent Reports 
+•	Implemented Screenshot Capture 
+•	Externalized Configuration 
+•	Integrated Jenkins CI 
+•	Managed Code using Git & GitHub 
+•	Automated End-to-End Flight Booking 
+________________________________________
+
+
+👨‍💻 Author
+
+Shivam Pal
+Project: BlazeDemo Flight Booking Automation Framework
+Framework: Selenium WebDriver + Java + TestNG + Maven
