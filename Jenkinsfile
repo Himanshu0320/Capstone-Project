@@ -1,17 +1,17 @@
 pipeline {
-
     agent any
 
     tools {
         jdk 'JDK'
-        maven 'Maven3'
+        maven 'Maven'
     }
 
     stages {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Himanshu0320/Capstone-Project'
+                git branch: 'main',
+                url: 'https://github.com/Himanshu0320/Capstone-Project'
             }
         }
 
@@ -29,39 +29,20 @@ pipeline {
 
         stage('Execute TestNG Tests') {
             steps {
-                bat 'mvn test'
-            }
-        }
-
-        stage('Package Project') {
-            steps {
-                bat 'mvn package'
+                bat 'mvn test -DexecutionMode=jenkins'
             }
         }
 
         stage('Archive Reports') {
             steps {
-
-                archiveArtifacts(
-                    artifacts: 'reports/**/*.*',
-                    allowEmptyArchive: true
-                )
-
-                archiveArtifacts(
-                    artifacts: 'screenshots/**/*.*',
-                    allowEmptyArchive: true
-                )
-
-                archiveArtifacts(
-                    artifacts: 'test-output/**/*.*',
-                    allowEmptyArchive: true
-                )
+                archiveArtifacts artifacts: 'test-output/**/*.*', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'Screenshots/**/*.*', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'Reports/**/*.*', allowEmptyArchive: true
             }
         }
     }
 
     post {
-
         success {
             echo 'BlazeDemo Automation Build Successful'
         }
